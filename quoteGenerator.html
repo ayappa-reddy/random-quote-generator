@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Quote Generator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="quoteGenerator.css">	
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6 offset-md-3 mt-5">
+				<div id="quoteBox" class="mt-5">
+					<div class="float-left pt-5 pl-5 pr-3 icon">
+						<i class="fas fa-quote-left fa-2x"></i>
+					</div>
+					<div id="quoteText" class="pt-5 pr-5 pl-5 pb-3 font-weight-bold">
+					</div>
+					<div id="quoteAuthor" class="text-right pr-5">
+					</div>
+					<div class="mt-4 mb-4 pb-4 pr-5 pl-5">
+						<a class="twitter-share-button" href="https://twitter.com/intent/tweet" target="_blank" data-size="large">
+							<i class="fab fa-twitter-square fa-2x icon mt-2 social"></i>
+						</a>
+						<a class="tumblr-share-button" href="https://www.tumblr.com/widgets/share" target="_blank">
+							<i class="fab fa-tumblr-square fa-2x icon mt-2 social"></i>
+						</a>
+						<span id="newQuote" class="float-right mt-2 social rounded">New Quote</span>
+					</div>
+					</div>
+						<strong>Made by</strong> <a href="https://codepen.io/aypi/#" target="_blank" id="copyright" class="text-center">Ayappa</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script	src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script type="text/javascript" src="quoteGenerator.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>	
+</body>
+</html>

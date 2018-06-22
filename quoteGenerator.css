@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#quoteBox {
+	border-radius: 10px;
+	background: white;
+}
+
+#quoteText {
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+
+#quoteAuthor {
+	font-size: 20px;
+}
+
+.social button {
+	border: none;
+	padding: 0;
+	background: white;
+}
+
+#newQuote {
+	padding: 3px;
+	border: none;
+	color: white;
+}
+
+.social {
+	cursor: pointer;
+}
+
+#copyright, strong {
+	color: white;
+}
+
+a {
+	text-decoration: none !important;
+}
+
